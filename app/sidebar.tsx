@@ -30,7 +30,7 @@ const SideBarIcon = ({icon, text})=>(
 const SideBar = () => {
 // what's the alternative to this? for DEFAULT exports?
 return (
-<div className = "fixed top-0 left-0 h-screen w-50 m-0 flex flex-col bg-gray-900 text-white shadow-lg">
+<div className = "fixed top-0 left-0 h-screen w-50 m-0 flex flex-col bg-gray-100 text-black dark:bg-gray-900 dark:text-white shadow-lg">
     <SideBarIcon icon="Upload Application" text ="Copy and Paste entire JOB applications here." />
     < SideBarIcon icon = "Account" text = "Details about your account" />
     <ModeIcon icon ="Dark/Light Mode" text = "Convert between light and dark mode!" />
